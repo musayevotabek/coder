@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(25, 16, 16);
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+.nav1{
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.nav2{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: 40px;
+}
+.carusel{
+    width: 100%;
+    height: 100vh;
+    background: center/cover url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Mercedes-Benz_G_500_W_463_%282018%29_1X7A0308.jpg/1200px-Mercedes-Benz_G_500_W_463_%282018%29_1X7A0308.jpg");
+    padding-top: 10px;
+    color: white;
+}
+.carusel h1{
+    font-size: 50px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.carusel button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+.cards{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.car{
+    width: 600px;
+    text-align: center;
+}
+.car img{
+    width: 95%;
+    object-fit: cover;
+}
+.carsText{
+    background: white;
+    transform: translateY(-30px);
+    width: 90%;
+    margin: auto;
+    color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrap{
+    text-align: center;
+    color: white;
+}
+.carsText .descs{
+    display: flex;
+    justify-content: space-around;
+}
+.descs .desc{
+    flex: 1;
+    border: 1px solid gray;
+}
+.positi{
+    padding-top: 70px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.positi ul {
+    text-align: start;
+    margin: auto;
+    width: 70%;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.positi ul li {
+    margin: 20px 0px;
+    list-style: none;
+}
+.content{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.big{
+    display: flex;
+    justify-content: space-around;
+}
+.divcha{
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    color: black;
+}
+.divcha img{
+    width: 300px;
+    height: 200px;
+}
+.future{
+    color: white;
+    margin-top: 100px;
+}
+.yozuv{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 530px;
+}
+.sarlavha{
+    text-align: center;
+}
+.feeter{
+    color: white;
+}
+.top{
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.t-divs{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+.b-divs{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+.t-divs:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    border-radius: 10px;
+}
+.b-divs:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    border-radius: 10px;
+}
+.single{
+    width: 100%;
+}
+.row{
+    background:url("https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
